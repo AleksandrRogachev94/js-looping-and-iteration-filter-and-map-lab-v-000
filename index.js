@@ -19,6 +19,6 @@ function exactMatch(arr, query){
         return true;
       }
     }
-    
+    return false;
   })
 }
