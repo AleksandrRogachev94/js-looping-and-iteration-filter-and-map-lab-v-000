@@ -22,3 +22,9 @@ function exactMatch(arr, query){
     return true;
   })
 }
+
+function exactMatchToList(arr, query){
+  return exactMatch(arr, query).map(function(driver){
+    return driver.name;
+  })
+}
